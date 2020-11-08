@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+   <listeners>
+  <listener class-name="com.inetbanking.utiles.Reporting"></listener>
+  </listeners>
+    <test name="banktest">
+    <classes>
+      <class name="com.inetbanking.TestCases.TC_LoginTest_001hardcodedata"/>
+      <class name="com.inetbanking.TestCases.TC_LoginTest_001Redcongfile"/>
+     
+    
+    </classes>
+ </test>
+</suite> <!-- Suite -->

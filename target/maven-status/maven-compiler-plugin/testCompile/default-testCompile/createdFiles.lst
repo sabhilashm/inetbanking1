@@ -1,0 +1,9 @@
+com\inetbanking\TestCases\TC_LoginTest_001hardcodedata.class
+com\inetbanking\utiles\Reporting.class
+com\inetbanking\utiles\XLUtils.class
+com\inetbanking\TestCases\BaseClassRedcongfile.class
+com\inetbsnking\pageObiect\loginPage.class
+com\inetbanking\TestCases\BaseClassHardcoddata.class
+com\inetbanking\TestCases\TC_LoginDDT_002.class
+com\inetbanking\TestCases\TC_LoginTest_001Redcongfile.class
+com\inetbanking\utiles\readconfig.class

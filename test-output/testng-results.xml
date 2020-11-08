@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="39960" started-at="2020-11-01T17:39:46 IST" finished-at="2020-11-01T17:40:26 IST">
+    <groups>
+    </groups>
+    <test name="banktest" duration-ms="39960" started-at="2020-11-01T17:39:46 IST" finished-at="2020-11-01T17:40:26 IST">
+      <class name="com.inetbanking.TestCases.TC_LoginTest_001hardcodedata">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.inetbanking.TestCases.TC_LoginTest_001hardcodedata@4232c52b]" name="setup" is-config="true" duration-ms="8062" started-at="2020-11-01T17:39:46 IST" finished-at="2020-11-01T17:39:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="logintest()[pri:0, instance:com.inetbanking.TestCases.TC_LoginTest_001hardcodedata@4232c52b]" name="logintest" duration-ms="10060" started-at="2020-11-01T17:39:55 IST" finished-at="2020-11-01T17:40:05 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at com.inetbanking.TestCases.TC_LoginTest_001hardcodedata.logintest(TC_LoginTest_001hardcodedata.java:39)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.inetbanking.TestCases.TC_LoginTest_001hardcodedata@4232c52b]" name="tearDown" is-config="true" duration-ms="1249" started-at="2020-11-01T17:40:05 IST" finished-at="2020-11-01T17:40:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.inetbanking.TestCases.TC_LoginTest_001hardcodedata -->
+      <class name="com.inetbanking.TestCases.TC_LoginTest_001Redcongfile">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.inetbanking.TestCases.TC_LoginTest_001Redcongfile@1877ab81]" name="setup" is-config="true" duration-ms="6044" started-at="2020-11-01T17:40:06 IST" finished-at="2020-11-01T17:40:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logintest()[pri:0, instance:com.inetbanking.TestCases.TC_LoginTest_001Redcongfile@1877ab81]" name="logintest" duration-ms="13059" started-at="2020-11-01T17:40:12 IST" finished-at="2020-11-01T17:40:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.inetbanking.TestCases.TC_LoginTest_001Redcongfile@1877ab81]" name="tearDown" is-config="true" duration-ms="1069" started-at="2020-11-01T17:40:25 IST" finished-at="2020-11-01T17:40:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.inetbanking.TestCases.TC_LoginTest_001Redcongfile -->
+    </test> <!-- banktest -->
+  </suite> <!-- Suite -->
+</testng-results>
